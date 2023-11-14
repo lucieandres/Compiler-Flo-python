@@ -1,0 +1,5 @@
+si(n<=1){
+	ecrire(a);
+} sinon {
+    res = a;
+}

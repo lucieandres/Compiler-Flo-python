@@ -1,0 +1,4 @@
+ecrire(Vrai);
+ecrire(non Faux);
+ecrire(non (Vrai ou Faux));
+ecrire(non (1 + 4));

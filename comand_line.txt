@@ -1,0 +1,8 @@
+python3 analyse_lexicale.py input/exemple1.flo
+python3 analyse_syntaxique.py input/exemple1.flo
+python3 generation_code.py −nasm input/exemple1.flo
+python3 generation_code.py −nasm input/exemple1.flo > output/exemple1.nasm
+nasm -f elf -g -F dwarf output/exemple1.nasm
+ld -m elf_i386 -o output/exemple1 output/exemple1.o
+rm output/exemple1.o
+./output/exemple1

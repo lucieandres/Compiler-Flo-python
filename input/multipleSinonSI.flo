@@ -1,0 +1,9 @@
+	si (a < b){
+		res = entier1;
+	} sinon si ( non entier1 < entier3  ){
+		res = entier2;
+	} sinon si (entier2 <= entier1){
+		res = entier3;
+	} sinon {
+		res = entier2;
+	}

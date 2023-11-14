@@ -1,0 +1,2 @@
+ecrire(fibo(a,b,n));
+ecrire(fibo());

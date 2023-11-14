@@ -1,0 +1,3 @@
+entier a;
+a = 1;
+entier b = 2;
